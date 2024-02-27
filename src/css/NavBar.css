@@ -3,11 +3,11 @@
 
 *{
     box-sizing: border-box;
-    background: white;
+    background: rgba(255, 255, 255, 0.578);
     color:black;
     padding: 0;
 }
-.navbar{
+.nav{
     position: relative;
     background: black;
     width: 100%;
@@ -15,7 +15,7 @@
     font-size: 25px;
     font-weight: 500;
     font-family: Oswald;
-    border: 1px solid grey;
+    border: 0;
     justify-content: center;
     text-align: center;
 }
