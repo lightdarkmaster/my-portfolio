@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .homepage{
-    background-image: url('../assets/dragon1.png');
+    background: black;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -12,11 +14,63 @@
 .logo{
     width: 50px;
 }
-.card{
+
+.intro{
     position: relative;
-    top: 10%;
-    width: 50%;
-    margin: auto;
-    justify-content: space-evenly;
-    gap: 20px;
+    display: flex;
+    background: transparent;
 }
+.quote{
+    background: transparent;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.quote>h1{
+    background: transparent;
+    color: white; 
+    font-size: 10em;  
+}
+.quote>p{
+    background: transparent;
+    color: white;   
+}
+.intro>img{
+    position: relative;
+    background: transparent;
+    height: 90vh;
+}
+.see__more{
+    width: 25%;
+    height: 3em;
+    border: 0;
+    border-radius: 20px;
+    color: black;
+    background: white;
+    box-shadow: 1px 2px 1px 2px rgb(224, 171, 171);
+}
+.see__more:hover{
+    background: rgba(255, 255, 255, 0.786);
+}
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+    .homepage{
+        height: 80%;
+        width: 100%;
+    }
+    img{
+        width: 10%;
+        height: 10%;
+    }
+    h1{
+        font-size: 20px;
+    }
+  }

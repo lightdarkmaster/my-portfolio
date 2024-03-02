@@ -7,6 +7,9 @@
     color:black;
     padding: 0;
 }
+.navigationBar{
+    background: red;
+}
 .nav{
     position: relative;
     background: black;

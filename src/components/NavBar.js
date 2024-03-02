@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 function NavBar() {
   return (
-    <div>
+    <div className="navigationBar">
       <nav className=" nav navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
