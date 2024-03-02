@@ -12,7 +12,10 @@ function Homepage() {
     <div className="homepage">
       <div className="intro">
         <div className="quote">
-          <h1>Hello I am Christian</h1>
+          <span className="text">
+            <h1>Hello I am Christian</h1>
+          </span>
+          <span class="cursor"></span>
           <br/>
           <p>I am an Information Technology Student.</p>
           <br/>
