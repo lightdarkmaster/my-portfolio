@@ -32,13 +32,13 @@ function NavBar() {
             Links
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Github</a></li>
-            <li><a className="dropdown-item" href="#">Linkedin</a></li>
+            <li><a className="dropdown-item" href="https://github.com/lightdarkmaster">Github</a></li>
+            <li><a className="dropdown-item" href="https://www.linkedin.com/in/christian-barbosa-b993bb230/">Linkedin</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Facebook</a></li>
-            <li><a className="dropdown-item" href="#">Instagram</a></li>
-            <li><a className="dropdown-item" href="#">TikTok</a></li>
-            <li><a className="dropdown-item" href="#">Twitter</a></li>
+            <li><a className="dropdown-item" href="https://www.facebook.com/ChanNotDiff/">Facebook</a></li>
+            <li><a className="dropdown-item" href="https://www.instagram.com/chitchan22/">Instagram</a></li>
+            <li><a className="dropdown-item" href="https://www.tiktok.com/@chan_but_great">TikTok</a></li>
+            <li><a className="dropdown-item" href="https://twitter.com/Chan_not_Diff22">Twitter</a></li>
 
           </ul>
         </li>

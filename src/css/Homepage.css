@@ -68,7 +68,7 @@
   
   @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: rgba(255, 255, 255, 0); }
+    50% { border-color: rgb(0, 0, 0); }
   }
 
 
@@ -82,13 +82,12 @@
     animation: typing 2s steps(20) infinite alternate; /* Adjust animation duration as needed */
   }
   
-  .cursor {
-    background: transparent;
+  .cursor { 
     display: inline-block;
     width: 8px; /* Adjust width and height for cursor */
     height: 16px;
     background-color: rgba(246, 246, 246, 0); /* Adjust cursor color */
-    animation: blink-caret 0.75s step-end infinite;
+    animation: blink-caret 0.95s step-end infinite;
   }
 
 
