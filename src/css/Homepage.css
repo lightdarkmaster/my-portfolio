@@ -65,14 +65,19 @@
       font-size: 14px;
     }
     .homepage{
-        height: 80%;
+        height: 50vh;
         width: 100%;
     }
-    img{
-        width: 10%;
-        height: 10%;
+    .intro>img{
+        width: 40%;
+        height: 20em;
     }
-    h1{
-        font-size: 20px;
+    .quote>h1{
+        font-size:30px;
+    }
+    .see__more{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
     }
   }
